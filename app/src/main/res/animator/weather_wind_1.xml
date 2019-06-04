@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially" >
+
+    <set android:ordering="together" >
+
+        <objectAnimator
+            android:propertyName="translationX"
+            android:duration="300"
+            android:valueFrom="0"
+            android:valueTo="100" />
+
+        <objectAnimator
+            android:propertyName="alpha"
+            android:duration="300"
+            android:valueFrom="1.0"
+            android:valueTo="0.0" />
+
+    </set>
+
+    <objectAnimator
+        android:propertyName="translationX"
+        android:duration="900"
+        android:valueFrom="100"
+        android:valueTo="-100" />
+
+    <set android:ordering="together">
+
+        <objectAnimator
+            android:propertyName="alpha"
+            android:interpolator="@android:anim/overshoot_interpolator"
+            android:duration="600"
+            android:valueFrom="0.0"
+            android:valueTo="1.0" />
+
+        <objectAnimator
+            android:propertyName="translationX"
+            android:interpolator="@android:anim/overshoot_interpolator"
+            android:duration="600"
+            android:valueFrom="-100"
+            android:valueTo="0" />
+
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:interpolator="@android:anim/overshoot_interpolator"
+            android:duration="600"
+            android:valueFrom="1.2"
+            android:valueTo="1" />
+
+    </set>
+
+</set>

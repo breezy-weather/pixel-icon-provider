@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="sun" value="com.wangdaye.fullsizepixeliconprovider.PixelSunDrawable" />
+    <item name="moon" value="com.wangdaye.fullsizepixeliconprovider.PixelMoonDrawable" />
+
+</resources>
