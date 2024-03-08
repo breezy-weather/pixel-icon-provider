@@ -72,7 +72,7 @@ jobs:
 
             ### Checksum
 
-            ${{ env.APK_UNIVERSAL_SHA256 }}
+            ${{ env.APK_SHA256 }}
           files: |
             pixel-icon-provider-${{ env.VERSION_TAG }}.apk
           draft: true
