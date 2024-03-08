@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="org.breezyweather.pixeliconprovider">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:icon="@drawable/weather_partly_cloudy_day_pixel"

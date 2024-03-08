@@ -74,6 +74,6 @@ jobs:
 
             ${{ env.APK_UNIVERSAL_SHA256 }}
           files: |
-            pixel-icon-provider-${{ env.VERSION_TAG }}-standard.apk
+            pixel-icon-provider-${{ env.VERSION_TAG }}.apk
           draft: true
           prerelease: false
