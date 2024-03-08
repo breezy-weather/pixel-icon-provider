@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.wangdaye.fullsizepixeliconprovider">
+    package="org.breezyweather.pixeliconprovider">
 
     <application
         android:icon="@drawable/weather_partly_cloudy_day_pixel"
@@ -8,25 +8,26 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
         <meta-data
-            android:name="com.wangdaye.geometricweather.PROVIDER_CONFIG"
+            android:name="org.breezyweather.PROVIDER_CONFIG"
             android:resource="@xml/config" />
         <meta-data
-            android:name="com.wangdaye.geometricweather.DRAWABLE_FILTER"
+            android:name="org.breezyweather.DRAWABLE_FILTER"
             android:resource="@xml/drawable_filter" />
         <meta-data
-            android:name="com.wangdaye.geometricweather.ANIMATOR_FILTER"
+            android:name="org.breezyweather.ANIMATOR_FILTER"
             android:resource="@xml/animator_filter" />
         <meta-data
-            android:name="com.wangdaye.geometricweather.SHORTCUT_FILTER"
+            android:name="org.breezyweather.SHORTCUT_FILTER"
             android:resource="@xml/shortcut_filter" />
         <meta-data
-            android:name="com.wangdaye.geometricweather.SUN_MOON_FILTER"
+            android:name="org.breezyweather.SUN_MOON_FILTER"
             android:resource="@xml/sun_moon_filter" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.wangdaye.geometricweather.ICON_PROVIDER" />
+                <action android:name="org.breezyweather.ICON_PROVIDER" />
             </intent-filter>
         </activity>
 

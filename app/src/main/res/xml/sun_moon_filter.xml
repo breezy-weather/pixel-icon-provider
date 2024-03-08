@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <item name="sun" value="com.wangdaye.fullsizepixeliconprovider.PixelSunDrawable" />
-    <item name="moon" value="com.wangdaye.fullsizepixeliconprovider.PixelMoonDrawable" />
+    <item name="sun" value="org.breezyweather.pixeliconprovider.PixelSunDrawable" />
+    <item name="moon" value="org.breezyweather.pixeliconprovider.PixelMoonDrawable" />
 
 </resources>
