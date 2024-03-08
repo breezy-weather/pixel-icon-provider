@@ -23,7 +23,6 @@ import android.graphics.Paint
 import android.graphics.PixelFormat
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
-import androidx.annotation.ColorInt
 import kotlin.math.min
 import kotlin.math.sin
 
@@ -32,7 +31,6 @@ class PixelSunDrawable : Drawable() {
         isAntiAlias = true
     }
 
-    @ColorInt
     private val mColor: Int = Color.rgb(255, 215, 5)
     private var mAlpha: Float = 1f
     private var mBounds: Rect

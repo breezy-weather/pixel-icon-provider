@@ -26,7 +26,6 @@ import android.graphics.PorterDuffXfermode
 import android.graphics.Rect
 import android.graphics.Xfermode
 import android.graphics.drawable.Drawable
-import androidx.annotation.ColorInt
 import kotlin.math.min
 import kotlin.math.sin
 
@@ -36,7 +35,6 @@ class PixelMoonDrawable : Drawable() {
     }
     private val mClearXfermode: Xfermode
 
-    @ColorInt
     private val mCoreColor: Int = Color.rgb(180, 138, 255)
     private var mAlpha: Float = 1f
     private var mBounds: Rect
