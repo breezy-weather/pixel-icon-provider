@@ -1,0 +1,1 @@
+Réécriture en open source de Geometric Weather Pixel Icon Provider pour utilisation dans Breezy Weather.

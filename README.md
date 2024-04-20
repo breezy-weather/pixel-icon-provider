@@ -1,10 +1,12 @@
 <h1 align="center">Pixel Icon Provider</h1>
 
-Allows to use Pixel weather icons in Breezy Weather.
+![Icon](fastlane/metadata/android/en-US/images/icon.png)
+
+Open source rewrite of Geometric Weather Pixel Icon Provider for use in Breezy Weather.
 
 [Download from releases page](https://github.com/breezy-weather/pixel-icon-provider/releases)
 
 # License
 
-* [GNU Lesser General Public License v3.0](/LICENSE), rewritten from Breezy Weather existing Pixel icon provider source files under `LGPL-3.0-only`
-* Assets are non-free
+* [GNU Lesser General Public License v3.0](/LICENSE) for the source code part
+* Non-free assets from [Wangdayeeeeeee](https://github.com/WangDaYeeeeee)
